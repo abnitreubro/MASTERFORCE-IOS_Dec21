@@ -165,7 +165,7 @@
          }
         */
         
-        if ([sSIDName isEqualToString:@"Masterforce_MX1020_Inspec_camera"]) {
+        if ([sSIDName isEqualToString:@"Masterforce_MX1020_Inspec_camera"] || [sSIDName isEqualToString:@"Masterforce_MX1020_Inspec_Camera"]) {
             if (indexPath.row==0)
             {
                 cell.cameraName.text= @"MX1020 Masterforce™ Wi-Fi Inspection Camera/Video";
